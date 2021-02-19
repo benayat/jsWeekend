@@ -1,4 +1,5 @@
 function accum(str) {
+  if (!/^[a-zA-Z]+$/.test(str)) return "error. only letters allowed";
   return str
     .split("")
     .reduce((accumulator, value, index) => {
@@ -12,3 +13,4 @@ function accum(str) {
     .join("-");
 }
 console.log(accum("abcd"));
+console.log(accum("abcd1"));

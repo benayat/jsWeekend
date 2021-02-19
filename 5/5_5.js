@@ -1,5 +1,5 @@
 function initials(name) {
-  const check = name.match(/^$|^[a-zA-Z]+ [a-zA-Z]+$/);
+  const check = name.match(/^[a-zA-Z]+ [a-zA-Z]+$/);
   if (check[0] !== name) return "illegal input!";
   return name
     .split(" ")
@@ -8,3 +8,5 @@ function initials(name) {
 }
 
 console.log(initials("ben tra"));
+
+//regex explanation: ^ and $ are beginning and end of the sentence. [a-zA-Z][a-zA-Z] are only letters.

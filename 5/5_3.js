@@ -9,3 +9,5 @@ function toCamelCase(str) {
     .join("");
 }
 console.log(toCamelCase("this-is-going-to-be-awsome"));
+console.log(toCamelCase("ThIs-is-going-to-be-awsome"));
+console.log(toCamelCase("This-is-going_to-be_awsome"));

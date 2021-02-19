@@ -1,3 +1,5 @@
+//callback: calculate the nth tribonacci number.
+
 function fibo3Find(arraySignature, n) {
   if (n == 1) return arraySignature[0]; //1
   if (n == 2) return arraySignature[1]; //1

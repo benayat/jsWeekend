@@ -8,5 +8,6 @@ function toWeirdCase(str) {
 }
 
 console.log(toWeirdCase("Weird string case"));
-//note: there is a mistake/inconsistency in the example given: "Weird string case".
+
+//NOTE: there is a mistake/inconsistency in the example given: "Weird string case".
 //the first space is counted as a character, and the second is not.
